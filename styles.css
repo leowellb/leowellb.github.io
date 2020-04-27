@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+header {
+    font-family: 'Bebas Neue', cursive;
+}
+
 .navbar {
     font-size: 18px;
     background-color: white;
@@ -26,6 +30,7 @@
     min-width: 100%;
     padding: 0.75rem 0 0.75rem 0;
     font-weight: bolder;
+    letter-spacing: 0.25rem;
 }
 
 .nav-links, #logo {
@@ -54,6 +59,7 @@
     font-size: 1.75rem;
     margin-left: 0.5rem;
     font-weight: bolder;
+    letter-spacing: 0.5rem;
 }
 
 #navbar-toggle {
@@ -90,6 +96,7 @@
     font-size: 2.5rem;
     text-align: center;
     padding: 5rem 2rem 2rem 2rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section-home1 p {
@@ -97,6 +104,7 @@
     font-size: 1.25rem;
     text-align: center;
     padding: 0rem 2rem 1rem 2rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .form-container {
@@ -164,7 +172,7 @@ input[type=submit]:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 3rem 2rem 2rem 2rem;
 }
 
 .section-home2, .section-home3 {
@@ -177,22 +185,26 @@ input[type=submit]:hover {
 
 .section-home2 h1 {
     color: #031F35;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section-home2 p {
     color: rgb(100, 100, 100);
     margin-bottom: 2rem;
     max-width: 40rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .section-home3 h1 {
     color: #031F35;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section-home3 p {
     color: rgb(100, 100, 100);
     margin-bottom: 2rem;
     max-width: 40rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .underline {
@@ -204,6 +216,7 @@ input[type=submit]:hover {
 footer {
     background-color: #031F35;
     border-top: .05rem solid lightgrey;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .footer-container {
@@ -222,6 +235,9 @@ footer {
 
 .footer-item h1 {
     color: #F4880A;
+    letter-spacing: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
 }
 
 .footer-item h3 {
@@ -234,6 +250,7 @@ footer a {
     text-decoration: none;
     margin-top: 0.5rem;
     color: white;
+    letter-spacing: 0.25rem;
 }
 
 footer a:hover {
@@ -304,6 +321,7 @@ footer a:hover {
     font-size: 2rem;
     font-weight: bolder;
     margin-bottom: 0.5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-line {
@@ -316,6 +334,7 @@ footer a:hover {
     margin-top: 1.5rem;
     color: rgb(100, 100, 100);
     max-width: 40rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #services-container {
@@ -368,7 +387,8 @@ footer a:hover {
 .services-text h1 {
     color: #F4880A;
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Manrope', sans-serif;
 }
 
 .services-text p {
@@ -376,6 +396,7 @@ footer a:hover {
     font-size: 1rem;
     width: 20rem;
     margin-bottom: 0.25rem;
+    font-family: 'Manrope', sans-serif;
 }
   
   
